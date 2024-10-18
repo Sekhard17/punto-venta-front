@@ -26,7 +26,7 @@ const Login = () => {
               placeholder="Correo electrónico"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-2 focus:outline-none"
+              className="w-full p-2 focus:outline-none border-gray-300 text-black placeholder-gray-500"
             />
           </div>
           <div className="flex items-center border border-gray-300 rounded-md px-3">
@@ -36,7 +36,7 @@ const Login = () => {
               placeholder="Contraseña"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full p-2 focus:outline-none"
+              className="w-full p-2 focus:outline-none border-gray-300 text-black placeholder-gray-500"
             />
           </div>
           <button
