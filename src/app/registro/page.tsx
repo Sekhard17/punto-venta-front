@@ -15,7 +15,7 @@ export default function RegistroForm() {
     contrasena: '',
     confirmarContrasena: '',
   })
-//gei     
+  
   const formatRUT = (value: string) => {
     const cleaned = value.replace(/\D/g, '')
     let formatted = ''
@@ -27,7 +27,7 @@ export default function RegistroForm() {
     }
     return formatted
   }
-//oeoeoe
+
   useEffect(() => {
     setFormData(prev => ({ ...prev, rut: formatRUT(prev.rut) }))
   }, [formData.rut])
