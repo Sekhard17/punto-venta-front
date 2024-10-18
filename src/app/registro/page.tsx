@@ -15,7 +15,7 @@ export default function RegistroForm() {
     contrasena: '',
     confirmarContrasena: '',
   })
-
+//gei
   const formatRUT = (value: string) => {
     const cleaned = value.replace(/\D/g, '')
     let formatted = ''
