@@ -16,7 +16,7 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
-          Bienvenido Usuario
+          Bienvenidoo
         </h2>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div className="flex items-center border border-gray-300 rounded-md px-3">
